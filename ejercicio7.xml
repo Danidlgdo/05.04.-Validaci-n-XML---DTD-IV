@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Daniel
+Curso: 1DAW
+Fecha: 23/4/2025
+Ejercicio: Ejercicio 7
+-->
+<!DOCTYPE musicos [
+    <!ELEMENT musicos (musico*)>
+    <!ELEMENT musico ((nombre | apodo), fechaNacimiento)> 
+    <!ELEMENT nombre (#PCDATA)> 
+    <!ELEMENT apodo (#PCDATA)> 
+    <!ELEMENT fechaNacimiento (#PCDATA)> 
+]>
+
+<musicos>
+    <musico>
+        <nombre>Antonio Vivaldi</nombre>
+        <fechaNacimiento>4 de marzo de 1678</fechaNacimiento>
+    </musico>
+    <musico>
+        <nombre>Johann Sebastian Bach</nombre>
+        <fechaNacimiento>21 de marzo de 1685</fechaNacimiento>
+    </musico>
+</musicos>

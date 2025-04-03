@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Daniel
+Curso: 1DAW
+Fecha: 23/4/2025
+Ejercicio: Ejercicio 9
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sistemaSolar [
+    <!ELEMENT sistemaSolar (cuerpo*)>  
+    <!ELEMENT cuerpo (planeta|satellite|asteroide)>  
+    <!ELEMENT planeta (#PCDATA)>  
+    <!ELEMENT satellite (#PCDATA)>  
+    <!ELEMENT asteroide (#PCDATA)>
+]>
+<sistemaSolar>
+    <cuerpo>
+        <planeta>Tierra</planeta>
+    </cuerpo>
+    <cuerpo>
+        <satellite>Luna</satellite>
+    </cuerpo>
+    <cuerpo>
+        <asteroide>Ceres</asteroide>
+    </cuerpo>
+</sistemaSolar>

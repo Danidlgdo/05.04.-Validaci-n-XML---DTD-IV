@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Daniel
+Curso: 1DAW
+Fecha: 23/4/2025
+Ejercicio: Ejercicio 8
+-->
+<!DOCTYPE agenda [
+    <!ELEMENT agenda (contacto*)> 
+    <!ELEMENT contacto (nombre, telefonoFijo*, telefonoMovil+)> 
+    <!ELEMENT nombre (#PCDATA)> 
+    <!ELEMENT telefonoFijo (#PCDATA)> 
+    <!ELEMENT telefonoMovil (#PCDATA)>
+]>
+
+<agenda>
+    <contacto>
+        <nombre>Ayuntamiento</nombre>
+        <telefonoFijo>010</telefonoFijo>
+        <telefonoMovil>No disponible</telefonoMovil> <!-- Añadido para cumplir con telefonoMovil+ -->
+    </contacto>
+    <contacto>
+        <nombre>Emergencias</nombre>
+        <telefonoFijo>112 (Unión Europea)</telefonoFijo>
+        <telefonoMovil>Desconocido</telefonoMovil>
+        <telefonoFijo>911 (Estados Unidos)</telefonoFijo>
+    </contacto>
+</agenda>
+

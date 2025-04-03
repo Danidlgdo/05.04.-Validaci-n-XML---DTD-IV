@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Daniel
+Curso: 1DAW
+Fecha: 23/4/2025
+Ejercicio: Ejercicio 5
+-->
+<!DOCTYPE animales [
+    <!ELEMENT animales (animal*)> 
+    <!ELEMENT animal (#PCDATA)> 
+]>
+<animales>
+    <animal>Caniche</animal>
+    <animal>Siamés</animal>
+</animales>
